@@ -18,9 +18,9 @@ export default function Header() {
                         key={route.href}
                         asChild
                         variant="outline"
-                        className="dark:hover:text-background dark:hover:bg-foreground hover:text-background hover:bg-foreground transition-colors duration-200 ease-in-out"
+                        className="dark:hover:text-background dark:hover:bg-foreground hover:text-background hover:bg-foreground transition-colors duration-200 ease-in-out border-2 border-foreground"
                     >
-                        <Link href={route.href} className="items-center">
+                        <Link href={route.href} className="items-center ">
                             {route.href === pathname ? <Dot /> : null}
                             {route.name}
                         </Link>

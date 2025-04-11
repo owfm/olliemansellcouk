@@ -48,7 +48,6 @@
     --animate-accordion-up: accordion-up 0.2s ease-out;
     --border-radius: 0;
     --shadow: 2px 2px 0px 0px rgba(0, 0, 0, 0.25);
-    /* --border: 1px solid var(--foreground); */
 
     @keyframes accordion-down {
         from {
@@ -86,6 +85,7 @@
     --accent: oklch(0.967 0.001 286.375);
     --accent-foreground: oklch(0.21 0.006 285.885);
     --destructive: oklch(0.577 0.245 27.325);
+    /* --border: black; */
     --border: oklch(0.92 0.004 286.32);
     --input: oklch(0.92 0.004 286.32);
     --ring: oklch(0.795 0.184 86.047);
@@ -111,7 +111,8 @@
     --card-foreground: oklch(0.985 0 0);
     --popover: oklch(0.21 0.006 285.885);
     --popover-foreground: oklch(0.985 0 0);
-    --primary: oklch(0.795 0.184 86.047);
+    /* --primary: oklch(0.795 0.184 86); */
+    --primary: oklch(0.9 0.1655 96.07);
     --primary-foreground: oklch(0.421 0.095 57.708);
     --secondary: oklch(0.274 0.006 286.033);
     --secondary-foreground: oklch(0.985 0 0);
@@ -120,7 +121,7 @@
     --accent: oklch(0.274 0.006 286.033);
     --accent-foreground: oklch(0.985 0 0);
     --destructive: oklch(0.704 0.191 22.216);
-    --border: oklch(1 0 0 / 10%);
+    --border: oklch(1 0 0 / 0%);
     --input: oklch(1 0 0 / 15%);
     --ring: oklch(0.554 0.135 66.442);
     --chart-1: oklch(0.488 0.243 264.376);
